@@ -6,13 +6,7 @@ import About from './components/About'
 //import Alert from './components/Alert'
 import React ,{useState} from 'react'
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Routes
-} from "react-router-dom";
+
 import Alert from './components/Alert';
 
 
@@ -39,16 +33,7 @@ const toggleMode =() =>{
     <Alert></Alert>
     <div className="container my-3">
     
-    <Switch>
-          
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path='/'> 
-          <TextForm heading="Enter the text to analyse below" mode = {mode}> </TextForm>
-          </Route>
-          
-        </Switch>
+    
        
     
     </div>
