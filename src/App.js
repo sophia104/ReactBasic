@@ -28,7 +28,7 @@ const toggleMode =() =>{
 
   return (
     <>
-    <Router>
+   
     <Navbar mode = {mode} toggleMode = {toggleMode}/>
     <Alert></Alert>
     <div className="container my-3">
@@ -37,7 +37,7 @@ const toggleMode =() =>{
        
     
     </div>
-    </Router>
+   
     <div>
      
     </div>
